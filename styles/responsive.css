@@ -1,0 +1,190 @@
+@media only screen and (max-width: 1220px) {
+    body {
+        padding-inline: 100px;
+    }
+    
+    .wireless-keyboard {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .box,.box2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .advantages-container {
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 72px 70px;
+    }
+
+    .advantages-container h3 {
+        padding-block: 40px 24px;
+    }
+}
+
+
+/** T A B L E T S  */
+@media only screen and (max-width: 849px) {
+
+    body {
+        padding-inline: 40px;
+    }
+
+    header {
+        margin-top: 40px;
+    }
+
+    .typemaster {
+        margin-top: 62px;
+        gap: 70px;
+    }
+    .dnt {
+        display: none;
+    }
+
+    .dbt {
+        display: block;
+        border-radius: 20px;
+    }
+    
+    .typemaster-keyboard-tablet {
+        max-width: 250%;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .texts > p {
+        font-size: 16px;
+        line-height: 162.5%;
+        padding-block: 34px 39px;
+    }
+
+    .btn-rel-mask {
+        gap: 37px;
+    }
+
+    .wireless-keyboard {
+        margin-top: 40px;
+        
+    }
+
+    .wireless-keyboard-design {
+        gap: 15px;
+        
+    }
+
+    .wireless-keyboard-info {
+        flex-direction: row;
+        gap: 36px;
+    }
+
+    .advantages-container {
+        margin-block: 142px;
+    }
+
+    footer {
+        margin-bottom: 43px;
+    }
+
+    .keyboard-tablet {
+        width: 100%;
+    }
+    
+}
+
+ /** M O B i L E S  */
+
+@media only screen and (max-width: 576px) {
+
+    body {
+        padding-inline: 24px;
+    }
+
+    header {
+        margin-top: 23px;
+    }
+
+    button {
+        padding: 11px 14px;
+    }
+
+    .typemaster {
+        flex-direction: column;
+        gap: 64px;
+        margin-top: 64px;
+    }
+
+    .texts > p {
+        padding-block: 32px;
+    }
+
+    .btn-rel-mask {
+        gap: 32px;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .typemaster-keyboard-mobile {
+        display: block;
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .visual {
+        width: 100%;
+    }
+
+    .wireless-keyboard {
+        margin-top: 24px;
+        gap: 75px;
+    }
+
+    .wireless-keyboard-design {
+
+        gap: 24px;
+        margin-left: -24px;
+    }
+
+    .phone, .mouse {
+        display: block;
+    }
+
+    .wireless-keyboard-info {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .wireless-keyboard-info p, h2 {
+        text-align: center;
+    }
+
+    .advantages-container {
+        margin-block: 111px 96px;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 64px;
+    }
+
+    .advantages-container div  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages-container h3 {
+        text-align: center;
+        padding-block: 48px 24px;
+    }
+
+    footer {
+        margin-bottom: 50px;
+    }
+}
+
+

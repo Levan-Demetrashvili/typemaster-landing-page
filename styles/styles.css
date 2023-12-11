@@ -1,0 +1,221 @@
+@import url('variables.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+/* !global styles  */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Barlow', sans-serif;
+}
+
+.dn {
+   display: none;
+}
+
+body { 
+   padding-inline:  165px;
+   overflow-x: hidden;
+   }
+   
+   button {
+      padding: 16px 27px 16px 26px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 162.5%;
+      text-transform: uppercase;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+   }
+   
+   /* ******* header ***********  */
+   header {
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 55px;
+   }
+   header .header-btn {
+      background-color: var(--white);
+      color: var(--dark-blue);
+   }
+   
+   
+   /* ? typemaster keyboard */
+
+.typemaster {
+   
+   margin-top: 83px;
+   display: flex;
+   align-items: center;
+   gap: 125px;
+}
+
+.visual {
+   display: flex;
+}
+   
+.visual .typemaster-keyboard-desktop {
+   border-radius: 20px;
+   max-width: 150%;
+}
+   
+ .box {
+   position: absolute;
+   width: 255px;
+   height: 240px;
+   right: -120px;
+
+   background-color: var(--white);
+   border-radius: 20px;
+   z-index: -1;
+
+}
+
+h1 {
+   font-size: var(--h1);
+   color: var(--dark-blue);
+   font-weight: 900;
+   line-height: 100%;
+   text-transform: uppercase;
+}
+
+.texts > p {
+
+   color: var(--grey);
+   font-size: 1.125rem;
+   font-weight: 500;
+   line-height: 144.44%;
+   padding-block: 24px 40px;
+}
+
+.btn-rel-mask {
+   display: flex;
+   gap: 40px;
+   align-items: center;
+}
+
+.typemaster-btn {
+   color: #fff;
+   background-color: var(--orange);
+}
+
+.release, .wireless-keyboard-info p {
+   font-size: 16px;
+   color: var(--grey);
+   font-weight: 700;
+   line-height: 162.5%;
+   text-transform: uppercase;
+}
+
+
+
+/*** wireless - keyboard *****/
+
+.box2 {
+   position: absolute;
+   width: 255px;
+   height: 236px;
+   left: -120px;
+
+   background-color: var(--white);
+   border-radius: 20px;
+   z-index: -1;
+}
+
+.wireless-keyboard {
+
+   margin-top: 30px;
+   display: flex;
+   gap: 125px;
+}
+
+.wireless-keyboard-design {
+   
+   display: flex;
+   align-items: flex-end;
+   gap: 30px;
+}
+
+
+
+.wireless-keyboard-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 27px;
+}
+
+h2 {
+   font-size: var(--h2);
+   color: var(--dark-blue);
+   font-weight: 900;
+   line-height: 112.5%;
+   text-transform: uppercase;
+}
+
+.wireless-keyboard-info p {
+   font-weight: 500;
+   text-transform: none;
+}
+
+/* * * * * * * * *  A D V A N T A G E S * * * * * * */
+
+.advantages-container {
+   margin-block: 168px 128px;
+   display: grid;
+   grid-template-columns: repeat(4,minmax(0,1fr));
+   gap: 30px;
+}
+
+.advantages-container h3 {
+   color: var(--dark-blue);
+   font-size: var(--h3);
+   font-weight: 900;
+   line-height: 116%;
+   text-transform: uppercase;
+   padding-block: 48px 24px;
+}
+
+.advantages-container p {
+   color: var(--grey);
+   font-size: var(--body);
+   font-weight: 500;
+   line-height: 162.5%;
+   
+}
+
+/**** F O O T E R  */
+
+footer {
+   margin-bottom: 40px;
+}
+
+footer p {
+   color: var(--grey);
+   font-size: var(--body);
+   font-weight: 500;
+   line-height:  162.5%;
+   text-align: center;
+}
+
+footer p span {
+   font-weight: 700;
+}
+
+
+/* ^ a n i m a t i o n s */
+
+.typemaster-btn:hover {
+   background-color: var(--light-orange);
+}
+
+
+.header-btn:hover {
+   color: #fff;
+   background-color: var(--dark-blue);
+}
